@@ -90,6 +90,4 @@ app.get('/search', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`API listening on http://localhost:${PORT} (USE_LIVE=${USE_LIVE})`);
-});
+module.exports = app;
